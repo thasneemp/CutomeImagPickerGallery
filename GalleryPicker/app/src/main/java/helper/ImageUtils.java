@@ -13,7 +13,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by hoanglam on 7/31/16.
+ * Created by muhammed
  */
 public class ImageUtils {
 

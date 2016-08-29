@@ -17,7 +17,7 @@ import model.Image;
 import test.launcher.mummu.gallerypicker.R;
 
 /**
- * Created by hoanglam on 7/31/16.
+ * Created by muhammed
  */
 public class ImagePickerAdapter extends RecyclerView.Adapter<ImagePickerAdapter.ViewHolder> {
 

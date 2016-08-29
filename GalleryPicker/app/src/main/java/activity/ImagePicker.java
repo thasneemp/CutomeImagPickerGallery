@@ -15,7 +15,7 @@ import model.Image;
 import test.launcher.mummu.gallerypicker.R;
 
 /**
- * Created by hoanglam on 8/4/16.
+ * Created by muhammed
  */
 public class ImagePicker {
 

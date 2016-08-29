@@ -37,7 +37,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +51,7 @@ import model.Image;
 import test.launcher.mummu.gallerypicker.R;
 
 /**
- * Created by hoanglam on 7/31/16.
+ * Created by muhammed
  */
 public class ImagePickerActivity extends AppCompatActivity implements ImagePickerAdapter.ViewHolder.OnItemClickListener {
 
@@ -126,7 +125,7 @@ public class ImagePickerActivity extends AppCompatActivity implements ImagePicke
         limit = intent.getIntExtra(ImagePickerActivity.INTENT_EXTRA_LIMIT, Constants.MAX_LIMIT);
         mode = intent.getIntExtra(ImagePickerActivity.INTENT_EXTRA_MODE, ImagePickerActivity.MODE_MULTIPLE);
         folderMode = intent.getBooleanExtra(ImagePickerActivity.INTENT_EXTRA_FOLDER_MODE, false);
-        if(intent.hasExtra(INTENT_EXTRA_TITLE)) {
+        if (intent.hasExtra(INTENT_EXTRA_TITLE)) {
             title = intent.getStringExtra(ImagePickerActivity.INTENT_EXTRA_TITLE);
         } else {
             title = getString(R.string.title_select_image);
@@ -617,7 +616,7 @@ public class ImagePickerActivity extends AppCompatActivity implements ImagePicke
     }
 
     public Folder getFolder(String name) {
-        for (Folder folder:folders) {
+        for (Folder folder : folders) {
             if (folder.getFolderName().equals(name)) {
                 return folder;
             }

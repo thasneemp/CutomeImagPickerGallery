@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+
 import java.util.List;
 
 import listeners.OnFolderClickListener;
@@ -16,7 +17,7 @@ import model.Folder;
 import test.launcher.mummu.gallerypicker.R;
 
 /**
- * Created by boss1088 on 8/22/16.
+ * Created by muhammed
  */
 public class FolderPickerAdapter extends RecyclerView.Adapter<FolderPickerAdapter.FoldersViewHolder> {
 
